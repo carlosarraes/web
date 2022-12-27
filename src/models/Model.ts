@@ -31,7 +31,7 @@ export class Model<T extends HasId> {
     return this.events.on
   }
 
-  get trigger() {
+  trigger() {
     return this.events.trigger
   }
 
